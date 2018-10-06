@@ -20,7 +20,6 @@ import (
 
 	"github.com/jessevdk/go-flags"
 	"github.com/zimmski/go-tool/importing"
-	"github.com/zimmski/osutil"
 
 	"github.com/zimmski/go-mutesting"
 	"github.com/zimmski/go-mutesting/astutil"
@@ -28,6 +27,7 @@ import (
 	_ "github.com/zimmski/go-mutesting/mutator/branch"
 	_ "github.com/zimmski/go-mutesting/mutator/expression"
 	_ "github.com/zimmski/go-mutesting/mutator/statement"
+	"github.com/afraca/go-mutesting/osutil"
 )
 
 const (
